@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Raleway:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Oshokuji Dokoro</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">Oshokuji Dokoro</a>
+            <ul class="sns">
+                <li>
+                    <a href="https://www.Twitter.com" target="_blank" rel="noopener noreferrer"><img
+                            src="./img/2021 Twitter logo - blue.png" alt="Twitter" class="icon"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><img
+                            src="./img/f_logo_RGB-Blue_58.png" alt="facebook" class="icon"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img
+                            src="./img/Instagram_Glyph_Gradient copy.png" alt="instagram" class="icon"></a>
+                </li>
+            </ul>
+            <div class="cart-ic">
+                <i class='bx bx-shopping-bag' id="cart-icon"></i><span>0</span>
+            </div>
+            <div class="cart">
+                <h2 class="cart-title">Your Order</h2>
+                <div class="cart-content">
+
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$25</div>
+                </div>
+                <button type="button" class="btn-buy">Order Now</button>
+                <i class='bx bx-x-circle' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <div id="main">
+        <img src="./img/lily-banse--YHSwy6uqvk-unsplash.jpg" alt="main picture">
+    </div>
+    <section class="shop container">
+        <h2 class="section-title">Order</h2>
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="img/meunière.jpg" alt="" class="product-img">
+                <h2 class="product-title">Meunière</h2>
+                <span class="price">$25</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/desertball.jpg" alt="" class="product-img">
+                <h2 class="product-title">Desert Ball</h2>
+                <span class="price">$30</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/oneplate.jpg" alt="" class="product-img">
+                <h2 class="product-title">One Plate</h2>
+                <span class="price">$25</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/Saladball.jpg" alt="" class="product-img">
+                <h2 class="product-title">Salad Ball</h2>
+                <span class="price">$20</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/stakeplate.jpg" alt="" class="product-img">
+                <h2 class="product-title">Stake Plate</h2>
+                <span class="price">$40</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/salmonplate.jpg" alt="" class="product-img">
+                <h2 class="product-title">Salmon Plate</h2>
+                <span class="price">$25</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <ul class="md-flex">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Site Map</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <p class="copyright">© 2023 Oshokuji Dokoro Inc. All Rights Reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

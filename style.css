@@ -79,7 +79,7 @@ header {
 
 #main img {
   width: 100%;
-  max-width: 1920px;
+  /* max-width: 1920px; */
   height: 650px;
   object-fit: cover;
   object-position: 50% 45%;
